@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 module "app_service" {
   source              = "./modules/azure_app_service"
   name                = "example-app-service"
